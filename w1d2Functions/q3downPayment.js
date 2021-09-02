@@ -8,6 +8,7 @@ Defining table
 	Output: down payment
 */
 function calDownpayment(cost){
+    let downPayment;
     if (cost >= 0 && cost < 50000){
         downPayment = cost * 0.05;
     } else if (cost >= 50000 && cost < 100000){

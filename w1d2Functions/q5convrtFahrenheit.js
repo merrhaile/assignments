@@ -2,9 +2,9 @@
 
 // Question 5
 
-function convertFahrenheit(tempCelcius) {
-    let tempFahren;
-    tempFahren = (tempCelcius *9/5) + 32;
-    return tempFahren;
+function convertFahrenheit(tempFahren) {
+    let tempCelcius;
+    tempCelcius = (tempFahren - 32) * 5/9;
+    return tempCelcius;
 }
 console.log(convertFahrenheit(0))
