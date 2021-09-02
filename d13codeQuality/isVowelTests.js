@@ -25,4 +25,5 @@ describe("isVowel", function () {
     });
     it("5 is not vowel", function () { 
         assert.equal(isVowel("5"), false);
-    }); });
+    }); 
+});
